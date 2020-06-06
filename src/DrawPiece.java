@@ -24,6 +24,10 @@ public class DrawPiece {
 		return p;
 	}
 	
+	public Properties getProperties() {
+		return prop;
+	}
+	
 	public void setProp(Properties prop) {
 		this.prop = prop;
 	}
